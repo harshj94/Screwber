@@ -28,11 +28,6 @@ public class Main {
         }
     }
 
-    //start_latitude=28.5550838
-    // start_longitude=77.0822128
-    // end_latitude=28.5473971
-    // end_longitude=77.2717317
-
     public Estimate calculateFareAndTime(Float startLat, Float startLon, Float endLat, Float endLon, String productType) {
         SessionConfiguration config = new SessionConfiguration.Builder()
                 .setClientId("6Zq8vClPJJBGHYQbJgm-KYVEIIeepxpc")

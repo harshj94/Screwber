@@ -39,7 +39,11 @@ public class Estimate2 implements Comparable<Estimate2> {
 
     @Override
     public int compareTo(Estimate2 o) {
-        return this.getAverageCost().compareTo(o.getAverageCost());
+        if(o!=null) {
+            return this.getAverageCost().compareTo(o.getAverageCost());
+        }else {
+            return -1;
+        }
     }
 
     public Position getPosition() {

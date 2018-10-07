@@ -7,6 +7,17 @@
         <element id="directory" name="classes">
           <element id="module-output" name="Screwber" />
         </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../jarfiles/rides-0.5.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../jarfiles/retrofit-2.4.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../jarfiles/okhttp-3.9.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../jarfiles/converter-moshi-2.3.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../jarfiles/logging-interceptor-3.9.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../jarfiles/okio-1.13.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../jarfiles/moshi-1.5.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/org.json.jar/org.json.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../jarfiles/org.json.jar" />
+        </element>
       </element>
     </root>
   </artifact>
